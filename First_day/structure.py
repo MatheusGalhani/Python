@@ -37,6 +37,7 @@ def strings():
     print(text1.upper())
     print(text1.lower())
 
+
 def condition():
     """
         Este método serve para apresentar como se utiliza métodos de validações
@@ -71,6 +72,8 @@ def condition():
         print("Ok string2")
     if string3:
         print("Ok string3")
+
+    print(len(string2))  # Quantidade de caracteres
 
 
 def for_method():
@@ -166,8 +169,7 @@ def parameters(name, lastname, age=1):
 
 
 if __name__ == '__main__':
-    input_method()
-    # strings()
+    # input_method()
     # strings()
     # condition()
     # for_method()
@@ -175,6 +177,6 @@ if __name__ == '__main__':
     # dictionary()
     # lambda_method()
     # for_comprehension()
-    # parameters('Matheus', 'Galhani', 23)
-    # parameters('Nayara', 'Cristina')
-    # parameters(lastname='Pedro', name='Gomes', age=33)
+    parameters('Matheus', 'Galhani', 23)
+    parameters('Nayara', 'Cristina')
+    parameters(lastname='Pedro', name='Gomes', age=33)
