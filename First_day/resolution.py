@@ -8,8 +8,9 @@ def validacao(idade, cpf, email, semestre_atual, qtd_semestre_total):
     if idade < 18 or (
             semestre_atual + 2) >= qtd_semestre_total or "@" not in email or ".com" not in email.lower() or len(
         cpf) != 11 or cpf in (
-            11111111111, 22222222222, 33333333333, 44444444444, 55555555555, 66666666666, 77777777777, 88888888888,
-            99999999999, 00000000000) or cpf.__contains__("1234567"):
+            '11111111111', '22222222222', '33333333333', '44444444444', '55555555555', '66666666666', '77777777777',
+            '88888888888',
+            '99999999999', '00000000000') or cpf.__contains__("1234567"):
         return False
     return True
 
