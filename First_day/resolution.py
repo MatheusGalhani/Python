@@ -19,7 +19,7 @@ def chave(idade, nome, semestre_atual, qtd_semestre_total, linguagem):
     """
         Este método serve para validar a chave
     """
-    if 18 <= idade <= 20 and nome == nome[::-1] or semestre_atual <= (qtd_semestre_total / 2):
+    if 18 <= idade <= 20 and nome == nome[::-1] and semestre_atual <= (qtd_semestre_total / 2):
         return "A"
     elif idade > 25 and semestre_atual >= (qtd_semestre_total / 2) and linguagem.lower() == 'python':
         return "B"
