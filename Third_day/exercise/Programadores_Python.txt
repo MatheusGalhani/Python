@@ -1,0 +1,2 @@
+Employee ID;Nome do funcionário;Idade;CPF;Equipe atual;Meses nesta equipe;Feliz na equipe;Linguagens conhecidas;
+1;Matheus Galhani;23;41173514864;Billing;3;S;['Python', 'Java', 'C', 'C#', 'JavaScript'];
