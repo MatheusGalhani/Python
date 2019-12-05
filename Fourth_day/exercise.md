@@ -52,7 +52,7 @@ retorno = [["nome", "Matheus"], ["idade", 23]]
 Neste método você receberá um dicionário e retornara para ele uma dicionario com os alunos que passaram no treinamento (nota 6 ou mais)
 
 ````text
-dicionario = {1: ["Matheus", 10], 2: ["Pedro", 6], 3: ["Jorge": 5.5], 4: ["Giba": 7.5]}
+dicionario = {1: ["Matheus", 10], 2: ["Pedro", 6], 3: ["Jorge", 5.5], 4: ["Giba", 7.5]}
 retorno = {1: ["Matheus", 10], 2: ["Pedro", 6], 4: ["Giba": 7.5]}
 ````
 
