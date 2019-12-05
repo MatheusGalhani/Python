@@ -1,6 +1,8 @@
 # Python
 Repositório para cadastrar exemplos de Python para treinamentos
 
+[Feedback Treinamento](https://forms.gle/ZarFEYWqgc37XyPZ9)
+
 Basic summary of Python operators, assignment instructions, data types and existing methods.
 This tutorial is based on the tutorial on Python provided by Mosh Hamedani on YouTube.
 
